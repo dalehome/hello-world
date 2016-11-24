@@ -11,10 +11,8 @@ public class Order {
 
 	public Order() { System.out.println("Constructor"); }
 
-
-
-	public static void main(String[] args) {  System.out.println("Main Method: " + 3); System.out.println(new Order().a); }
-
-
-
+	public static void main(String[] args) {  
+		System.out.println("Main Method: "); 
+		System.out.println(new Order().a); 
+	}
 }
