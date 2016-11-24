@@ -1,5 +1,5 @@
 // Check out the order
-
+// This is an ibndication of the order java idioms are parsed and executed
 public class Order {
 
 	static { System.out.println("Static Initialiser"); }
