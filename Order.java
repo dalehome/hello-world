@@ -9,7 +9,7 @@ public class Order {
 
 	private int a = 1;
 
-	public Order() { System.out.println("Constructor"); }
+	public Order() { System.out.println("Constructor: "); System.out.println(a++); }
 
 
 
